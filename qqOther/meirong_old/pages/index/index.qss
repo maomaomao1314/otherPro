@@ -1,0 +1,32 @@
+
+.container{
+  padding:50rpx 20rpx;
+  color:#fff;
+}
+.title{
+  font-weight:bold;
+}
+.list{
+  width:100%;
+  margin-bottom:150rpx;
+}
+.list-item{
+  margin-top:50rpx;
+  margin-bottom:70rpx;
+  line-height:70rpx;
+  width:100%;
+  overflow:hidden;
+}
+.item-title{
+  width:100%;
+  text-align:center;
+  line-height:100rpx;
+}
+.item-image{
+  width:710rpx;
+}
+.item-btn{
+  float:right;
+  background:transparent;
+ color:#fff;
+}

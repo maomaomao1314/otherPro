@@ -1,0 +1,27 @@
+<view class="container">
+    <view class="search">
+        <input bindconfirm="bindConfirm" bindinput="bindInput" placeholder="对方的称谓" type="text"></input>
+        <button bindtap="bindConfirm" hoverClass="btn-equal-hover">查找</button>
+    </view>
+    <view class="list">
+        <block wx:if="{{value}}">
+            <block wx:if="{{items.length}}">
+                <view class="h1">
+                    <text>关系：</text>
+                </view>
+                <view wx:for="{{items}}">
+                    <view class="item">{{item}}</view>
+                </view>
+            </block>
+        </block>
+    </view>
+    <view class="recommend" wx:if="{{recommendApp&&recommendApp.length}}">
+        <view class="title">更多好玩小程序</view>
+        <view class="app">
+            <navigator hoverClass="navigator-hover" url="../app/index?type={{item.key}}" wx:for="{{recommendApp}}" wx:key="key">
+                <image mode="aspectFit" src="{{item.icon_url}}"></image>
+                <text>{{item.name}}</text>
+            </navigator>
+        </view>
+    </view>
+</view>

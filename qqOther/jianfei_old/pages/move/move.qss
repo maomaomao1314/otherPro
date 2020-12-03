@@ -1,0 +1,32 @@
+
+.container{
+  padding:50rpx 20rpx;
+  color:#fff;
+}
+.title{
+  font-weight:bold;
+  font-size:70rpx;
+}
+.list{
+  width:100vw;
+  margin-top:50rpx;
+  margin-bottom:50rpx;
+  overflow:hidden;
+}
+
+.list-item{
+  float:left;
+  width:50%;
+}
+.item-btn{
+  border-radius:50%;
+  margin:10rpx;
+  box-sizing:border-box;
+  background:lightgreen;
+  color:#333;
+  height:150rpx;
+  line-height:60rpx;
+}
+.item-btn:hover{
+  background:#eee;
+}

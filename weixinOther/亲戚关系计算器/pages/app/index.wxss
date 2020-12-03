@@ -1,0 +1,52 @@
+.intro {
+    padding: 50rpx 40rpx 0;
+    margin-bottom: 40rpx;
+}
+
+.intro text {
+    display: block;
+    line-height: 48rpx;
+    color: #666;
+}
+
+.intro .h1 {
+    font-size: 32rpx;
+}
+
+.intro .p {
+    text-indent: 2em;
+}
+
+.qrcode {
+    width: 400rpx;
+    padding: 30rpx;
+    margin-bottom: 20rpx;
+    text-align: center;
+}
+
+.qrcode .view {
+    width: 400rpx;
+    height: 400rpx;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.qrcode image {
+    width: 400rpx;
+    height: 400rpx;
+}
+
+.qrcode text {
+    line-height: 54rpx;
+    color: #999;
+}
+
+.qrcode canvas {
+    position: absolute;
+    left: -500px;
+}
+
+.method text {
+    line-height: 54rpx;
+    color: #666;
+}

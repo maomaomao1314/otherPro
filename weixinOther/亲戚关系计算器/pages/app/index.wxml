@@ -1,0 +1,17 @@
+<view class="container">
+    <block wx:if="{{key}}">
+        <view class="intro">
+            <text class="h1">{{name}}</text>
+            <text class="p">{{intro}}</text>
+        </view>
+        <view class="qrcode">
+            <view class="view">
+                <image bindtap="previewImage" data-src="{{qrcode_url}}" mode="aspectFill" src="{{qrcode_url}}"></image>
+            </view>
+            <text>扫描小程序码，与好友分享</text>
+        </view>
+        <view class="method">
+            <text>单击图片进入预览模式，长按图片识别二维码</text>
+        </view>
+    </block>
+</view>

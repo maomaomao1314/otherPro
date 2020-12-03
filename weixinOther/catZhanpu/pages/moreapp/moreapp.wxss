@@ -1,0 +1,219 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_begin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420rpx;
+    height: 90rpx;
+    color: #fff;
+    letter-spacing: 5rpx;
+    font-size: 36rpx;
+    border-radius: 10rpx;
+}
+
+.game_gz,.game_sz {
+    width: 96%;
+    font-size: 28rpx;
+    color: #888;
+    margin-bottom: 20rpx;
+}
+
+.game_gz .tit,.game_sz .tit {
+    color: #333;
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+
+.game_gz view {
+    margin-bottom: 20rpx;
+}
+
+.game_sz .gli {
+    margin-bottom: 20rpx;
+}
+
+.game_sz .gli .radio-group label {
+    margin-right: 20rpx;
+}
+
+.game_sz .gli .radio-group label radio {
+    margin-bottom: 25rpx;
+}
+
+.ul_data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20rpx;
+    border-top: 1px solid #eee;
+}
+
+.ul_data:after {
+    content: '';
+    width: 150rpx;
+}
+
+.ul_data .li {
+    width: 20%;
+    height: 150rpx;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: relative;
+    color: #888;
+    font-size: 28rpx;
+    font-weight: bold;
+}
+
+.ul_data .li::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 150rpx;
+    width: 2rpx;
+    background: #eee;
+}
+
+.layer_ts {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.layer_ts .ts {
+    width: 65%;
+    color: #fff;
+    font-size: 30rpx;
+    text-align: center;
+    margin-bottom: 20rpx;
+}
+
+.layer_ts image {
+    width: 420rpx;
+    margin-bottom: 50rpx;
+}
+
+.layer_ts .btnbox {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.layer_ts .btn_begin {
+    width: 46%;
+    height: 70rpx;
+    font-size: 28rpx;
+    background: #FF6724;
+}
+
+.layer_ts .return {
+    background: #86A25B;
+}
+
+ad {
+    margin-bottom: 10rpx;
+}
+
+.game_ad {
+    margin-bottom: 0;
+}
+
+.more {
+    background: #f1f2f3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul {
+    width: 96%;
+    margin: 30rpx auto;
+}
+
+.ul .li {
+    background: #fff;
+    margin-bottom: 30rpx;
+    display: flex;
+    align-items: center;
+    padding: 20rpx 10rpx;
+    border-radius: 15rpx;
+}
+
+.ul .li .head {
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+    margin-right: 15rpx;
+    border: 1rpx solid #ddd;
+}
+
+.ul .li .box {
+    font-size: 24rpx;
+    width: 65%;
+    color: #888;
+}
+
+.ul .li .box .title {
+    color: #333;
+    font-size: 32rpx;
+    margin-bottom: 10rpx;
+}
+
+.ul .li .box .des {
+    line-height: 40rpx;
+}
+
+.ul .time {
+    width: 20%;
+    font-size: 32rpx;
+    text-align: right;
+    font-weight: bold;
+    color: #FEAE33;
+}
+
+.bottom-text {
+    height: auto;
+    text-align: center;
+    font-size: 30rpx;
+    color: #666;
+    width: 100%;
+    height: 45rpx;
+    line-height: 45rpx;
+    display: block;
+}
+
+.fixed-copy-btn {
+    width: 200rpx;
+    height: 50rpx;
+    border-radius: 21rpx;
+    font-size: 25rpx;
+    color: #FFFFFF;
+    margin-left: 280rpx;
+    background-color: #2a2724;
+    line-height: 50rpx;
+    text-align: center;
+}

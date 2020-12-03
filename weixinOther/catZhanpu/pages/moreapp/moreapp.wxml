@@ -1,0 +1,17 @@
+<view class="more">
+    <view class="bottom-text">
+        <text selectable="true">技术支持来自微信公众平台：未来喵星人</text>
+    </view>
+    <view bindtap="copyClick" class="fixed-copy-btn">点击复制公众号</view>
+    <view class="ul">
+        <navigator appId="{{item.appid}}" class="li" hoverClass="none" openType="navigate" path="{{item.path}}" target="miniProgram" version="release" wx:for="{{list}}" wx:key="{{id}}">
+            <image class="head" src="{{item.imgurl}}"></image>
+            <view class="box">
+                <view class="title">{{item.title}}</view>
+                <view class="des">{{item.des}}</view>
+            </view>
+            <view class="time">{{item.time}}</view>
+        </navigator>
+    </view>
+    <ad type="card" unitId="{{adunit}}"></ad>
+</view>

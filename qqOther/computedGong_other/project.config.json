@@ -1,0 +1,47 @@
+{
+	"projectid": "1110816197_%E5%85%AC%E7%A7%AF%E9%87%91%E8%AE%A1%E7%AE%97",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"nodeModules": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false,
+		"prefetch": false
+	},
+	"qqLibVersion": "1.19.0",
+	"compileType": "miniprogram",
+	"createTime": 1602502091076,
+	"accessTime": 1602502091076,
+	"packOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"qqappid": "1110816197",
+	"projectname": "%E5%85%AC%E7%A7%AF%E9%87%91%E8%AE%A1%E7%AE%97",
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

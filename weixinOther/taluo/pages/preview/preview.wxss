@@ -1,0 +1,15 @@
+page {
+    background-color: #6725ab;
+}
+
+.startcs {
+    border-radius: 100rpx;
+    background: #ffffff;
+    margin-left: 24%;
+    height: 110rpx;
+    width: 420rpx;
+    color: #000000;
+    font-size: 50rpx;
+    line-height: 110rpx;
+    font-weight: bold;
+}

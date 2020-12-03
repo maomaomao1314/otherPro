@@ -1,0 +1,29 @@
+.row{
+    margin-top:20rpx;
+    margin-bottom:50rpx;
+}
+.t_item{
+  display:flex;
+  border-bottom:1px solid #aaa;
+  line-height:80rpx;
+  font-size:30rpx;
+}
+.t_title{
+  width:25vw;
+}
+.t_gongsi{
+  width:16vw;
+  text-align:center;
+}
+.t_upper{
+  width:16vw;
+  text-align:center;
+}
+.t_down{
+  width:16vw;
+  text-align:center;
+}
+.t_own{
+  width:16vw;
+  text-align:center;
+}

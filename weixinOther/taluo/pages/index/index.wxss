@@ -1,0 +1,37 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+page {
+    background-color: #6725ab;
+}
+
+.startcs {
+    border-radius: 100rpx;
+    background: #ffffff;
+    margin-top: 3%;
+    margin-left: 24%;
+    height: 110rpx;
+    width: 420rpx;
+    color: #000000;
+    font-size: 40rpx;
+    line-height: 110rpx;
+    font-weight: bold;
+}

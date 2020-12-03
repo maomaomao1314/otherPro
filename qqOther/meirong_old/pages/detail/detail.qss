@@ -1,0 +1,20 @@
+
+.container{
+  padding:50rpx 20rpx;
+  color:#fff;
+}
+.title{
+  font-weight:bold;
+  width:100%;
+  margin:50rpx 0;
+}
+
+.image{
+  width:100%;
+  margin:50rpx 0;
+}
+
+.content{
+  width:100%;
+  text-indent:2rpx;
+}

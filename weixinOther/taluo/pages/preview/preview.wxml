@@ -1,0 +1,22 @@
+<form reportSubmit bindsubmit="formid">
+    <view style="position:relative">
+        <image id="wenan" mode="widthFix" src="{{resultPng}}" style="width:100%;"></image>
+    </view>
+    <button bindtap="save" class="startcs" formType="submit">保存图片</button>
+    <view style="height:15rpx;width:700rpx;"></view>
+    <button bindtap="share" class="startcs" formType="submit" openType="share">转发好友</button>
+    <view style="height:15rpx;width:700rpx;"></view>
+    <button bindtap="moreapp" class="startcs" formType="submit">更多好玩 »</button>
+</form>
+<canvas canvasId="myCanvas" style="width:750px;height:1177px;margin-top:1000px;position:fixed"></canvas>
+<view style="display:{{setting_auth==0?'none':'block'}}">
+    <view class="mask" style="opacity:0.7;"></view>
+    <view class="modalDlg" style="height:180px;width:70%;margin:-370rpx 110rpx;">
+        <image bindtap="close_share_ios" src="" style="width:24px;height:24px;margin-top:6px;margin-left:-215px;opacity:0;"></image>
+        <view style="font-size:16px;color:#000000;"></view>
+        <view style="font-size:18px;color:#343434;margin-top:10px;margin-bottom:20px;"></view>
+        <button bindopensetting="handleSetting" class="share_button" formType="submit" openType="openSetting" style="width:45%;margin-top:14px;margin-bottom:45px;margin:0 auto;display:flex;justify-content:center;background:#44b549;color:#ffffff" type="primary"></button>
+    </view>
+</view>
+<view style="height:10rpx;width:700rpx;"></view>
+<ad type="card" unitId="{{adunit}}"></ad>

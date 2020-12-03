@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/help/index",
+    "pages/more/index",
+    "pages/app/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "亲戚关系计算器",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#333",
+    "selectedColor": "#e7763e",
+    "color": "#bfbfbf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "称谓",
+        "iconPath": "image/call.png",
+        "selectedIconPath": "image/call_active.png"
+      },
+      {
+        "pagePath": "pages/more/index",
+        "text": "关系",
+        "iconPath": "image/relation.png",
+        "selectedIconPath": "image/relation_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

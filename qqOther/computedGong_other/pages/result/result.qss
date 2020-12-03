@@ -1,0 +1,47 @@
+
+.result{
+  width:100%;
+  margin-top:30rpx;
+  padding-top:30rpx;
+}
+.result-title{
+  color:#333;
+  font-size:35rpx;
+  line-height:70rpx;
+}
+.result-info{
+  color:#666;
+  font-size:30rpx;
+  line-height:70rpx;
+
+}
+.result-list{
+  margin-bottom:50rpx;
+  padding-bottom:50rpx;
+  border-bottom:1px solid #333;
+}
+.result-display{
+  line-height:70rpx;
+  font-size:35rpx;
+}
+.result-value{
+  color:red;
+  font-size:40rpx;
+}
+.t_item{
+  display:flex;
+  border-bottom:1px solid #aaa;
+  line-height:80rpx;
+  
+}
+.t_title{
+  width:40vw;
+}
+.t_gongsi{
+  width:30vw;
+  text-align:center;
+}
+.t_own{
+  width:30vw;
+  text-align:center;
+}

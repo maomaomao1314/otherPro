@@ -1,0 +1,13 @@
+<form reportSubmit bindsubmit="formid">
+    <view style="color:#ffffff;position:fixed;top:2000px;color:#000"></view>
+    <image mode="widthFix" src="/images/title.jpg" style="width:100%;"></image>
+    <view style="height:50rpx;width:700rpx;"></view>
+    <view style="height:50rpx;width:700rpx;text-align:center;">您已观看{{count}}次</view>
+    <button bindtap="auth" class="startcs" formType="submit">A 牌</button>
+	<button bindtap="auth" class="startcs" formType="submit">B 牌</button>
+	<button bindtap="auth" class="startcs" formType="submit">C 牌</button>
+	<button bindtap="auth" class="startcs" formType="submit">D 牌</button>
+    <button bindtap="moreapp" class="startcs" formType="submit">更多好玩 »</button>
+    <view style="height:10rpx;width:700rpx;"></view>
+    <ad type="card" unitId="{{adunit_sp}}"></ad>
+</form>

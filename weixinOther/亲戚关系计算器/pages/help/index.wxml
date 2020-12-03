@@ -1,0 +1,17 @@
+<view class="detail">
+    <view class="h1">使用说明</view>
+    <view class="p">
+        <text class="name">←</text>
+        <text>删除上一层关系</text>
+    </view>
+    <view class="p">
+        <text class="name">↻</text>
+        <text>清除所有输入</text>
+    </view>
+    <view class="p">
+        <text class="name">⇌</text>
+        <text>互称间切换</text>
+    </view>
+    <view class="p">开始计算前，先在键盘左上方选择自己的性别</view>
+</view>
+<view class="copy"></view>

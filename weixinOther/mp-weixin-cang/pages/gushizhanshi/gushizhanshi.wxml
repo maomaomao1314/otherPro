@@ -1,0 +1,18 @@
+<view>
+    <view class="gushi">
+        <view class="{{[len==0?'five':'seven']}}">{{content}}</view>
+    </view>
+    <view class="btn">
+        <block wx:if="{{isShare}}">
+            <button type="primary" data-event-opts="{{[['tap',[['go',['$event']]]]]}}" bindtap="__e">
+                我也要写
+            </button>
+        </block>
+        <block wx:else>
+            <button type="primary" open-type="share">分享好友</button>
+        </block>
+        <button data-event-opts="{{[['tap',[['copy',['$event']]]]]}}" class="copy" bindtap="__e">
+            复制古诗
+        </button>
+    </view>
+</view>

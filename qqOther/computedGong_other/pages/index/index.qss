@@ -1,0 +1,68 @@
+.title{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-weight:bold;
+  font-size:60rpx;
+}
+.introduce{
+  line-height:40rpx;
+  font-size:30rpx;
+  color:#666;
+}
+.content{
+  width:100%;
+}
+.section{
+  display:flex;
+  
+}
+.section{
+  display:flex;
+  margin:30rpx 0;
+  align-items:center;
+}
+.section__title{
+  width:50%;
+}
+.section-input{
+  border:1px solid #aaa;
+  padding:10rpx 20rpx;
+  width:350rpx;
+}
+.picker{
+  width:400rpx;
+  height:60rpx;
+  padding:0 10rpx;
+  text-align:center;
+}
+.danwei{
+  margin-left:5rpx;
+}
+.btn-area{
+}
+.section-btn{
+  border:1px solid #666;
+  width:700rpx;
+  margin-bottom:20rpx;
+}
+.btn-submit{
+  border:1px solid #1fa8e9;
+  background:#1fa8e9;
+  color:#fff;
+}
+.btn-share{
+  border:1px solid orange;
+  background:orange;
+  color:#fff;
+}
+.btn-reset{
+  border:1px solid #f31227;
+  background:#f31227;
+  color:#fff;
+}
+.btn-show{
+  border:1px solid #f31227;
+  background:green;
+  color:#fff;
+
+}

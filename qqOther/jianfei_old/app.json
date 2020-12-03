@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/food/food",
+    "pages/move/move",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "一起来减肥",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor":"#0252d9",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"/img/index.png",
+        "selectedIconPath": "/img/index.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "饮食",
+        "iconPath":"/img/food.png",
+        "selectedIconPath": "/img/food.png"
+      },
+      {
+        "pagePath": "pages/move/move",
+        "text": "运动",
+        "iconPath":"/img/move.png",
+        "selectedIconPath": "/img/move.png"
+
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"es6": true,
+		"minified": true,
+		"newFeature": true,
+		"urlCheck": false,
+		"postcss": false,
+		"nodeModules": true,
+		"autoAudits": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false
+	},
+	"compileType": "miniprogram",
+	"projectname": "%E5%A7%93%E5%90%8D",
+	"qqappid": "1110703105",
+	"qqLibVersion": "1.6.3",
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/preview/preview",
+    "pages/moreapp/moreapp"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#561970",
+    "navigationBarTitleText": "塔罗牌占卜测试",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#8a42cc"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "1110109419",
+    "1110230556",
+    "1110282608",
+    "1110188150",
+    "1110206337",
+    "1110130903",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "sitemapLocation": "sitemap.json"
+}
