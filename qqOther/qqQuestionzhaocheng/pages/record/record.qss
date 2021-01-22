@@ -1,0 +1,35 @@
+.title{
+    text-align:center;
+    font-weight:bold;
+}
+.log-list {
+  display: flex;
+  flex-direction: column;
+  border-right:1px solid #aaa;
+  border-top:1px solid #aaa;
+  padding:0;
+  margin:30rpx 10rpx;
+}
+.log-row {
+    margin:0;
+  border-bottom:1px solid #aaa;
+  display: flex;
+    width:100%;
+}
+.log-item{
+    margin:0;
+  padding:20rpx 0;
+  border-left:1px solid #aaa;
+  text-align:center;
+}
+.head{
+    color:blue;
+    font-weight:bold;
+}
+.time{
+
+  width:60%;
+}
+.score{
+  width:40%;
+}
